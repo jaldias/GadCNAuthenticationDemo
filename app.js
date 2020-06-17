@@ -50,8 +50,9 @@ app.use((req, res, next) => {
 });
 
 // setting up the server
-app.listen(3000, () => {
-    console.log('Server is running on port 3000...');
+var port = process.env.port || 3000;
+app.listen(port, () => {
+    console.log('Server is running on port ' + port + '...');
 });
 
 module.exports = app;

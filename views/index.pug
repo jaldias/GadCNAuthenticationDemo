@@ -1,0 +1,16 @@
+extends layout
+block content
+    .form-container.login-panel
+        include includes/login-form
+    .form-container.register-panel
+        include includes/register-form
+    .overlay-container
+        .overlay
+            .overlay-panel.overlay-left
+                h1 Welcome Back!
+                p To keep connected with us please login with your personal info
+                button#signIn.ghost Sign In
+            .overlay-panel.overlay-right
+                h1 Hello, Friend!
+                p Enter your personal details and start journey with us
+                button#signUp.ghost Sign Up

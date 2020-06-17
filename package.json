@@ -1,0 +1,24 @@
+{
+  "name": "Authentication",
+  "version": "1.0.0",
+  "description": "My amazing authentication demo app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "João Dias",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mysql": "^2.18.1",
+    "pug": "^2.0.4",
+    "util.promisify": "^1.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
